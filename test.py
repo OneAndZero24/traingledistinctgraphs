@@ -35,5 +35,5 @@ g13.to_image('', 'g13test')
 
 print('2. check_traingle_distinct g, g7, g13')
 print(f'Is traingle-distinct g: {check_traingle_distinct(g)}')
-print(f'Is traingle-distinct g7: {check_traingle_distinct(7)}')
-print(f'Is traingle-distinct g13: {check_traingle_distinct(13)}')
+print(f'Is traingle-distinct g7: {check_traingle_distinct(g7)}')
+print(f'Is traingle-distinct g13: {check_traingle_distinct(g13)}')

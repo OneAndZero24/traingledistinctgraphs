@@ -48,7 +48,8 @@ class Graph:
 
         for i in range(self.N):
             neighbours = self.get_neighbours(i)
-            dot.edges(map(lambda x: str(i)+str(x), neighbours))
+            for n in neighbours:
+                dot.edge(str(i), str(n))
 
         return 'strict '+dot.source
 
